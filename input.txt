@@ -1,0 +1,5 @@
+	let(:two_ship_grid) { [[:s, :s], [nil, nil]] }
+  let(:two_ship_board) { Board.new(two_ship_grid) }
+
+  let(:full_grid) { [[:s, :s], [:s, :s]] }
+  let(:full_board) { Board.new(full_grid) }
