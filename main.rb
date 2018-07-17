@@ -14,4 +14,4 @@ arr.each do |el|
 	puts "#{el[5...el.index(")")]} = #{el[(el.index("{") + 1)...-1]}"
 end
 
-puts #for output cleanliness
+puts # for output cleanliness
